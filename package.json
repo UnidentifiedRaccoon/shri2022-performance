@@ -1,0 +1,28 @@
+{
+  "name": "shri2022-performance",
+  "version": "1.0.0",
+  "description": "Оптимизировать страницу, выложить результат на Github-Pages и отправить его на проверку на [https://shri-performance.ru/](https://shri-performance.ru/), отправив адрес вашей страницы. Нужно набрать минимум **300 баллов**.",
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build ./index.html ",
+    "build:prod": "parcel build ./index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnidentifiedRaccoon/shri2022-performance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnidentifiedRaccoon/shri2022-performance/issues"
+  },
+  "homepage": "https://github.com/UnidentifiedRaccoon/shri2022-performance#readme",
+  "devDependencies": {
+    "@parcel/optimizer-data-url": "^2.7.0",
+    "@parcel/transformer-inline-string": "^2.7.0",
+    "parcel": "2.7.0"
+  }
+}
